@@ -1,8 +1,8 @@
 :root {
-  --cores-menu: #ded6cd;
+  --cores-menu: #c85dfafa;
   --fonte-menu: "Fredericka the Great", serif;
   --fontes-principal: "Montserrat", serif;
-  --cores-vermelha: #0a0de2;
+  --cores-azuladas: #730ba3;
 }
 
 * {
@@ -54,7 +54,7 @@ nav li a {
 }
 
 nav li:hover a {
-  border-bottom: 4px solid var(--cores-vermelha);
+  border-bottom: 4px solid var(--cores-azuladas);
 }
 
 /* Estilo Personagem */
@@ -94,21 +94,21 @@ nav li:hover a {
   border-radius: 20px;
 
   & .sobre_img img {
-    width: 100%;
+    width: 90%;
     min-width: 380px;
     margin-top: 25px;
     border-radius: 20px;
   }
 
   & .sobre_texto {
-    margin-left: 40px;
+    margin-left: 50px;
   }
 
   & .sobre_texto h3 {
     margin: 25px 0;
     padding: 15px;
-    background-color: var(--cores-vermelha);
-    color: #fff;
+    background-color: var(--cores-azuladas);
+    color: #f0e3e3;
     border-radius: 10px;
   }
 
@@ -124,26 +124,26 @@ nav li:hover a {
   margin-top: 49px;
 
   & h3 {
-    background-color: var(--cores-vermelha);
+    background-color: var(--cores-azuladas);
     border-radius: 10px;
     padding: 15px;
-    color: #fff;
+    color: #f0e3e3;
     margin-bottom: 49px;
   }
 
-  & .container_canecas {
+  & .container_camisetas {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px 50px;
     margin-bottom: 50px;
   }
 
-  & .container_canecas div {
+  & .container_camisetas div {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 320px;
-    background: linear-gradient(190deg, var(--cores-menu), #e6e3dd);
+    background: linear-gradient(190deg, var(--cores-menu), #f0e3e3);
     border-radius: 15px;
     box-shadow: 0 0 8px 0;
     text-align: center;
@@ -151,33 +151,33 @@ nav li:hover a {
     margin-bottom: 30px;
   }
 
-  & .container_canecas div:hover {
+  & .container_camisetas div:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
 
-  & .container_canecas img {
+  & .container_camisetas img {
     width: 100%;
   }
 
-  & .container_canecas h4,
-  .container_canecas strong {
+  & .container_camisetas h4,
+  .container_camisetas strong {
     font-size: 20px;
     padding: 10px;
   }
 
-  & .container_canecas button {
+  & .container_camisetas button {
     font-size: 16px;
     border: none;
     padding: 15px;
     margin-bottom: 30px;
-    background-color: var(--cores-vermelha);
+    background-color: var(--cores-azuladas);
     max-width: 85%;
     width: 100%;
     font-weight: 600;
     border-radius: 15px;
     cursor: pointer;
-    color: #fff;
+    color: #f0e3e3;
   }
 }
 
@@ -185,7 +185,7 @@ nav li:hover a {
 footer {
   display: grid;
   align-items: center;
-  background-color: var(--cores-vermelha);
+  background-color: var(--cores-azuladas);
   text-align: center;
 }
 
@@ -197,7 +197,7 @@ footer {
   padding: 20px;
 
   & p {
-    color: #fff;
+    color: #f0e3e3;
   }
 }
 
@@ -247,7 +247,7 @@ footer li img {
     height: 400px;
   }
 
-  .container_produtos .container_canecas {
+  .container_produtos .container_camisetas {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin: 0 30px;
   }
@@ -277,7 +277,7 @@ footer li img {
     height: 3px;
     width: 100%;
     border-radius: 10px;
-    background-color: var(--cores-vermelha);
+    background-color: var(--cores-azuladas);
     display: block;
     margin: 4px 0;
   }
@@ -319,7 +319,7 @@ footer li img {
     height: 400px;
   }
 
-  .container_produtos .container_canecas {
+  .container_produtos .container_camisetas {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-items: center;
   }
