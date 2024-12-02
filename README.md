@@ -1,3 +1,6 @@
+![imgSite-Camisetas](https://github.com/user-attachments/assets/f17f29ac-bc4f-47ad-acc8-76b919ce2bf6)
+
+
 # Loja de Camisetas de Anime
 
 Bem-vindo ao **Keep Going**, um projeto de loja virtual totalmente responsiva, desenvolvido com foco na experiência do usuário e inspirado no universo dos animes! Este projeto foi criado para consolidar meus conhecimentos em **HTML5**, **CSS3** e **JavaScript/jQuery**, além de demonstrar habilidades em design interativo e responsividade.
